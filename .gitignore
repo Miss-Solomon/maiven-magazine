@@ -1,0 +1,23 @@
+# WordPress theme specific ignores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.sql
+*.sqlite
+.htaccess
+
+# Node dependency directories (if you use npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build directories (if you use a build process)
+dist/
+build/
+
+# Environment files
+.env
+.env.*

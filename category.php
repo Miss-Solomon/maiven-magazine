@@ -1,0 +1,82 @@
+<?php
+/**
+ * The template for displaying catgeory pages
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package minerva
+ */
+
+get_header();
+
+$minerva_cat_style = get_term_meta( get_queried_object_id(), 'minerva', true );
+$minerva_cat_style_template = !empty( $minerva_cat_style['minerva_cat_layout'] )? $minerva_cat_style['minerva_cat_layout'] : '';
+	
+?>
+
+	<!-- Category Breadcrumb -->
+    <div class="theme-breadcrumb__Wrapper theme-breacrumb-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+					<div class="breadcrumb-nav-top">
+						<ul>
+							<li class="breadcrumb-home-menu"><a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Home', 'minerva'); ?></a></li>
+							<li class="breadcrumb-item-menu"><a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Category', 'minerva'); ?></a></li>
+							<li class="breadcrumb-key-menu"><a href="#"><?php single_cat_title(); ?></a></li>
+						</ul>
+					</div>
+					<h1 class="theme-breacrumb-title">
+						<?php echo esc_html__('Category','minerva').' :'; ?>  <?php single_cat_title(); ?>
+					</h1>
+				 </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category Breadcrumb End -->
+
+	<section id="main-content" class="blog main-container blog-spacing" role="main">
+		<div class="container">
+			<div class="row">
+				<div class="<?php if(is_active_sidebar('sidebar-1')) { echo "col-xl-9"; } else { echo "col-xl-12";}?> col-lg-12">
+					<div class="category-layout-two main-blog-layout blog-new-layout theme-layout-mainn">
+					<?php if (have_posts()): ?>
+					
+						<div class="main-content-inner category-layout-one">
+						<?php while (have_posts()): the_post(); ?>
+							<?php get_template_part('template-parts/content', get_post_format());?>
+						<?php
+						endwhile; ?>
+						</div>	
+						
+						<div class="theme-pagination-style">
+							<?php
+								the_posts_pagination(array(
+								'next_text' => '<i class="icofont-long-arrow-right"></i>',
+								'prev_text' => '<i class="icofont-long-arrow-left"></i>',
+								'screen_reader_text' => ' ',
+								'type'               => 'list'
+							));
+							?>
+						</div>
+						
+						<?php else: ?>
+							<?php get_template_part('template-parts/content', 'none'); ?>
+						<?php endif; ?>
+						
+					</div>
+				</div>
+
+				<?php if ( is_active_sidebar( 'sidebar-1' ) ) { ?>
+				   <div class="col-xl-3 col-lg-12">
+				      <div id="sidebar" class="sidebar blog-sidebar">
+				         <?php dynamic_sidebar( 'sidebar-1' ); ?>
+				      </div> 
+				   </div>
+				<?php } ?>
+
+			</div>
+		</div>
+	</section>
+	
+	<?php get_footer(); ?>

@@ -1,0 +1,883 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Minerva\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-25 14:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.3\n"
+"X-Domain: minerva"
+
+#: inc/template-tags.php:40
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:273
+msgid " Previous"
+msgstr ""
+
+#: template-parts/single/single-two.php:57
+msgid " Views"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:166 
+#: inc/theme-options/theme-options.php:249
+msgid "#"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "% Comments"
+msgstr ""
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:43 inc/template-tags.php:98 inc/template-tags.php:112 
+#: inc/template-tags.php:356
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. 1: date, 2: time
+#: inc/template-tags.php:246
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:51 comments.php:81
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "0 Comments"
+msgstr ""
+
+#: inc/template-tags.php:104
+msgid "1 Comment"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:203
+msgid "38°C"
+msgstr ""
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: template-parts/single/single-one.php:52
+msgid "5 Min Read"
+msgstr ""
+
+#: functions.php:153
+msgid "Add Footer  widgets here."
+msgstr ""
+
+#: functions.php:163 functions.php:173 functions.php:183
+msgid "Add Footer widgets here."
+msgstr ""
+
+#: functions.php:193
+msgid "Add Panel Nav widgets here."
+msgstr ""
+
+#: archive.php:22
+msgid "Archives"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:79
+msgid "Back Top Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:583
+msgid "Backup"
+msgstr ""
+
+#: index.php:31 inc/theme-options/theme-options.php:345
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:351
+msgid "Blog Options"
+msgstr ""
+
+#: index.php:35 inc/theme-options/theme-options.php:358
+msgid "Blog Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:365
+msgid "Blog Page Spacing"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:357
+msgid "Blog Page Title"
+msgstr ""
+
+#: functions.php:142
+msgid "Blog Sidebar Widget."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:443
+msgid "Blog Single Page Option"
+msgstr ""
+
+#: functions.php:140
+msgid "Blog widget area"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:60
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:70
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:379
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:240
+msgid "Buy Theme"
+msgstr ""
+
+#: comments.php:147
+msgid "Cancel reply"
+msgstr ""
+
+#: category.php:25 category.php:30 inc/theme-options/theme-options.php:395
+msgid "Category"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:417
+msgid "Category Page Spacing"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:23
+msgid "Catgeory Options"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:30
+msgid "Choose Theme Color"
+msgstr ""
+
+#: template-parts/headers/nav-style-one.php:134
+msgid "Close"
+msgstr ""
+
+#: comments.php:37
+msgid "Comment "
+msgstr ""
+
+#: comments.php:48 comments.php:78
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments "
+msgstr ""
+
+#: comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/required-plugins.php:86
+msgid "Contact Form 7"
+msgstr ""
+
+#: footer.php:77
+msgid "Copyright &copy; Minerva 2022. All rights reserved"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:570
+msgid "Copyright Area Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:304
+msgid "Do You want to Show Header Social Icons"
+msgstr ""
+
+#: inc/required-plugins.php:65
+msgid "Elementor"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:381
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:213
+msgid "Enable Header Current Date"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:132
+msgid "Enable Header Promotion"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:182
+msgid "Enable Header Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:226
+msgid "Enable Header Top Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:190
+msgid "Enable Header weather box"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:283
+msgid "Enable or Disable Login Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:73
+msgid "Enable or Disable Preloader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:291
+msgid "Enable or Disable Register Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:87
+msgid "Enable or Disable scroll button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:275
+msgid "Enable or Disable Search Bar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:306
+msgid "Enable or Disable Social Bar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:71
+msgid "Enable Preloader"
+msgstr ""
+
+#: comments.php:127
+msgid "Enter Comments"
+msgstr ""
+
+#: comments.php:113
+msgid "Enter Email"
+msgstr ""
+
+#: comments.php:112
+msgid "Enter Name"
+msgstr ""
+
+#: comments.php:114
+msgid "Enter Website"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:81 
+#: inc/theme-options/theme-options.php:545
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:565
+msgid "Footer Copyright Area Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:572
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: functions.php:91
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:551
+msgid "Footer Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:556
+msgid "Footer Right Menu"
+msgstr ""
+
+#: functions.php:181
+msgid "Footer Widget Area Four"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer Widget Area One"
+msgstr ""
+
+#: functions.php:171
+msgid "Footer Widget Area Three"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer Widget Area Two"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Template"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:32
+msgid "General"
+msgstr ""
+
+#: 404.php:26
+msgid "Go Home Page"
+msgstr ""
+
+#. Author of the theme
+msgid "Gossip Themes"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:99
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:105
+msgid "Header Layout"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:174
+msgid "Header Top Bar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:124
+msgid "Header Top Promotion"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:202
+msgid "Header Weather Text"
+msgstr ""
+
+#: category.php:24 archive.php:21 index.php:30
+msgid "Home"
+msgstr ""
+
+#. Name of the template
+msgid "HomePage Template"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://gossipthemes.com"
+msgstr ""
+
+#. URI of the theme
+msgid "http://gossipthemes.com/minerva"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:148
+msgid "Incredible offer for our exclusive subscribers!"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:325
+msgid "Inter Social Url"
+msgstr ""
+
+#: template-parts/content-none.php:3
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: comments.php:145
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:146
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/template-tags.php:352
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:108
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: comments.php:140
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:140
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:135
+msgid "logged in"
+msgstr ""
+
+#: comments.php:140
+msgid "Logged in as"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:43
+msgid "Main Logo"
+msgstr ""
+
+#: inc/required-plugins.php:80
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#. Name of the theme
+msgid "Minerva"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:24
+msgid "Minerva Color Settings"
+msgstr ""
+
+#: inc/required-plugins.php:71
+msgid "Minerva Extra"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:26
+msgid "Minerva Theme Options"
+msgstr ""
+
+#: inc/template-tags.php:266
+msgid "More pages: "
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:116
+msgid "Nav Menu Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:139
+msgid "New"
+msgstr ""
+
+#: comments.php:54 comments.php:84
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:272
+msgid "Next "
+msgstr ""
+
+#: inc/theme-options/theme-options.php:484
+msgid "Next Post"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:483
+msgid "Next Post Text"
+msgstr ""
+
+#. Description of the theme
+msgid "Next-Generation Blog &amp; Magazine Theme"
+msgstr ""
+
+#: template-parts/content-none.php:2
+msgid "Nothing found!"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:105
+msgid "Page Options"
+msgstr ""
+
+#: template-parts/content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:191
+msgid "Panel Menu Widget Area"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:320
+msgid "Pick Up Your Social Icon"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:58 inc/template-tags.php:91
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: comments.php:148
+msgid "Post Comment"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:103
+#, php-format
+msgctxt "post comment"
+msgid "%s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:26 inc/template-tags.php:85
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:508
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:170
+msgid "Post Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:532
+msgid "Post views"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:65
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:476
+msgid "Previous Post"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:475
+msgid "Previous Post Text"
+msgstr ""
+
+#: functions.php:90
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:165
+msgid "Promo Button Link"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:156
+msgid "Promo Button Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:138
+msgid "Promo Highlighted Title"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:147
+msgid "Promo Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:157
+msgid "Read More"
+msgstr ""
+
+#: template-parts/single/related-posts.php:17 
+#: inc/theme-options/theme-options.php:524
+msgid "Related Posts"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:314
+msgid "Repeater"
+msgstr ""
+
+#: inc/template-tags.php:235
+msgid "says:"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:85
+msgid "Scroll Top Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:268
+msgid "Search Bar & Login Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:273
+msgid "Search Bar Display In Header"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search here..."
+msgstr ""
+
+#: inc/template-tags.php:297
+msgid "Search Keyword"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/headers/nav-style-one.php:156 
+#: template-parts/headers/nav-style-two.php:143
+msgid "Search....."
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:46
+msgid "Select Category Background Color"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:37
+msgid "Select Category Color"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:63 
+#: inc/theme-options/theme-options.php:406
+msgid "Select Category Layout"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:123 
+#: inc/theme-options/theme-options.php:112
+msgid "Select Header Navigation Style"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:188 
+#: inc/theme-options/theme-options.php:449
+msgid "Select Single Blog Style"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:53
+msgid "Set Logo Width"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:59
+msgid "Set Logo Width in px. Default Width 184px."
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:50
+msgid "Set Preloader Background Color"
+msgstr ""
+
+#: template-parts/default-menu.php:8
+msgid "Set Up Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:498
+msgid "Show Author"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:492
+msgid "Show Category Name"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:490
+msgid "Show Catgeory"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:211
+msgid "Show Current Date"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:179
+msgid "Show Header Top"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:224
+msgid "Show Header Top Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:129
+msgid "Show Header Top Promotion Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:281
+msgid "Show Login Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:506
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:134
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:137
+msgid "Show Page Title Bar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:516
+msgid "Show Post Tags"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:530
+msgid "Show Post Views"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:289
+msgid "Show Register Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:522
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:514
+msgid "Show Tags"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:188
+msgid "Show weather box"
+msgstr ""
+
+#: template-parts/headers/nav-style-two.php:107
+msgid "Sign Up"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:437
+msgid "Single"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:460
+msgid "Single Blog Spacing"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:500
+msgid "Single Post Author"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:177 
+#: inc/theme-options/theme-metabox.php:181
+msgid "Single Post Layout Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:38
+msgid "Site Logo"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:299
+msgid "Social Options"
+msgstr ""
+
+#: 404.php:23
+msgid "Sorry!...Page Not Found!"
+msgstr ""
+
+#: template-parts/headers/nav-style-one.php:111
+msgid "Subscribe"
+msgstr ""
+
+#: inc/template-tags.php:356
+msgid "Tags:"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:401
+msgid ""
+"Theme Category Options. You can Customize Each Catgeory by Editing "
+"Individually."
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:36
+msgid "Theme Main Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:21
+msgid "Theme Option"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:144
+msgid "Theme Page Spacing"
+msgstr ""
+
+#: inc/theme-options/theme-customizer.php:43
+msgid "Theme Seconday or Hover Color"
+msgstr ""
+
+#: comments.php:135
+msgid "to post a comment."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:257
+msgid "Top Bar Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:248
+msgid "Top Button Link"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:239
+msgid "Top Button Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:359
+msgid "Type Blog Page Title"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:250
+msgid "Type Button Link"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:204
+msgid "Type Header Weather Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:485
+msgid "Type Next Post Link Title"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:477
+msgid "Type Previous Post Link Title"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:167
+msgid "Type Promotion Button Link"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:158
+msgid "Type Promotion Button text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:149
+msgid "Type Promotion offer text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:241
+msgid "Type text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:140
+msgid "Type Title"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:57
+msgid "Upload"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:92
+msgid "Upload Video For Post"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:93
+msgid "Upload Video Post"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:46
+msgid "Upload Your Static Logo Image on Header Static"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:79
+msgid "Video Post Format Options"
+msgstr ""
+
+#: template-parts/content.php:20
+msgid "Views"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:259
+msgid "You can set menu on Top bar in Header Style 4"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:558
+msgid "You can set Yes or No to show Footer menu"
+msgstr ""
+
+#: comments.php:135
+msgid "You must be"
+msgstr ""
+
+#: inc/template-tags.php:239
+msgid "Your comment is awaiting moderation."
+msgstr ""
