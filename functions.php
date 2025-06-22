@@ -1,10 +1,10 @@
 <?php
 /**
- * Minerva functions and definitions
+ * Maiven Magazine functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package minerva
+ * @package maiven
  */
 
 
@@ -21,7 +21,7 @@
 	$theme_info = wp_get_theme();
 }
 
-define('MINERVA_DEV_MODE',true);
+define('MINERVA_DEV_MODE',false);
 $minerva_version = MINERVA_DEV_MODE ? time() : $theme_info->get('Version');
 define('MINERVA_NAME',$theme_info->get('Name'));
 define('MINERVA_VERSION',$minerva_version);
@@ -55,9 +55,8 @@ define('MINERVA_THEME_OPTIONS_IMG',MINERVA_THEME_OPTIONS .'/img');
 */
 	 
 function minerva_setup(){
-	
-	// make the theme available for translation
-	load_theme_textdomain( 'minerva', get_template_directory() . '/languages' );
+		// make the theme available for translation
+	load_theme_textdomain( 'maiven', get_template_directory() . '/languages' );
 	
 	// add support for post formats
     add_theme_support('post-formats', [
