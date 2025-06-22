@@ -47,6 +47,12 @@ define('MINERVA_THEME_OPTIONS',MINERVA_INC .'/theme-options');
 define('MINERVA_THEME_OPTIONS_IMG',MINERVA_THEME_OPTIONS .'/img');
 
 /**
+ * Include native WordPress post layout functions and shortcodes
+ */
+require_once MINERVA_INC . '/post-layouts.php';
+require_once MINERVA_INC . '/shortcodes.php';
+
+/**
  * Sets up theme defaults and registers support for various WordPress features.
  *
  * Note that this function is hooked into the after_setup_theme hook, which

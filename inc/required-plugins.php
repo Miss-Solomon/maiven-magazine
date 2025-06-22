@@ -60,15 +60,14 @@ function minerva_register_required_plugins() {
 	 */
 	$plugins = array(
 	
-		
-		array(
+				array(
 			'name'		 => esc_html__( 'Elementor', 'minerva' ),
 			'slug'		 => 'elementor',
-			'required'	 => true,
+			'required'	 => false,
 		),
 		
 		array(
-			'name'		 => esc_html__( 'Minerva Extra', 'minerva' ),
+			'name'		 => esc_html__( 'Maiven Magazine Extra', 'minerva' ),
 			'source'     => get_template_directory() . '/inc/plugins/minerva-extra.zip',
 			'slug'		 => 'minerva-extra',
 			'required'	 => true,
@@ -79,20 +78,20 @@ function minerva_register_required_plugins() {
 		array(
 			'name'		 => esc_html__( 'MC4WP: Mailchimp for WordPress', 'minerva' ),
 			'slug'		 => 'mailchimp-for-wp',
-			'required'	 => true,
+			'required'	 => false,
         ),
 		
 		array(
 			'name'		 => esc_html__( 'Contact Form 7', 'minerva' ),
 			'slug'		 => 'contact-form-7',
-			'required'	 => true,
+			'required'	 => false,
         ),
 		
 		array(
 	
 			'name'      => 'One Click Demo Import',
 			'slug'      => 'one-click-demo-import',
-			'required'  => true,
+			'required'  => false,
 		),
 		
 		
